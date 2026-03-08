@@ -1,6 +1,6 @@
 # 📊 Telecom X — Predicción de Cancelación de Clientes (Churn)
 
-Este proyecto analiza el comportamiento de los clientes de **Telecom X** con el objetivo de identificar los factores que influyen en la cancelación del servicio (evasión o churn) y construir modelos capaces de predecir qué clientes tienen mayor probabilidad de abandonar la empresa.
+Este proyecto analiza el comportamiento de los clientes de Telecom X con el objetivo de identificar los factores que influyen en la cancelación del servicio (evasión o churn) y construir modelos capaces de predecir qué clientes tienen mayor probabilidad de abandonar la empresa.
 
 El análisis combina exploración de datos, modelado predictivo y análisis de variables para transformar datos en información útil para la toma de decisiones estratégicas.
 
@@ -8,19 +8,19 @@ El análisis combina exploración de datos, modelado predictivo y análisis de v
 
 # 📑 Índice
 
-- [📊 Telecom X — Predicción de Cancelación de Clientes](#-telecom-x--predicción-de-cancelación-de-clientes-churn)
-- [🎯 Objetivos del Proyecto](#-objetivos-del-proyecto)
-- [⚙️ Tecnologías Utilizadas](#️-tecnologías-utilizadas)
-- [📑 Preparación de los Datos](#-preparación-de-los-datos)
-- [📊 Análisis Exploratorio de Datos](#-análisis-exploratorio-de-datos)
-- [🤖 Modelos Predictivo](#-modelos-predictivo)
-- [📈 Evaluación de Modelos](#-evaluación-de-modelos)
-- [🔍 Factores que Influyen en la Cancelación](#-factores-que-influyen-en-la-cancelación)
-- [💡 Estrategias de Retención](#-estrategias-de-retención)
-- [🧠 Conclusión](#-conclusión)
-- [👨‍💻 Autor](#-autor)
-- [🤝 Colaboración](#-colaboración)
-- [🌐 Conecta conmigo](#-conecta-conmigo)
+- [Telecom X — Predicción de Cancelación de Clientes](#-telecom-x--predicción-de-cancelación-de-clientes-churn)
+- [Objetivos del Proyecto](#-objetivos-del-proyecto)
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [Preparación de los Datos](#-preparación-de-los-datos)
+- [Análisis Exploratorio de Datos](#-análisis-exploratorio-de-datos)
+- [Modelos Predictivos](#-modelos-predictivos)
+- [Evaluación de Modelos](#-evaluación-de-modelos)
+- [Factores que Influyen en la Cancelación](#-factores-que-influyen-en-la-cancelación)
+- [Estrategias de Retención](#-estrategias-de-retención)
+- [Conclusión](#-conclusión)
+- [Cómo Descargar y Ejecutar el Proyecto](#-cómo-descargar-y-ejecutar-el-proyecto)
+- [Autor](#-autor)
+- [Colaboración](#-colaboración)
 
 ---
 
@@ -63,8 +63,8 @@ Antes de entrenar los modelos fue necesario realizar un proceso de preparación 
 
 Durante este proceso se observó que aproximadamente:
 
-- **73% de los clientes permanecen activos**  
-- **27% de los clientes cancelan el servicio**
+73% de los clientes permanecen activos  
+27% de los clientes cancelan el servicio  
 
 Esto indica un desbalance moderado en los datos, lo cual fue considerado durante el entrenamiento de los modelos para evitar sesgos en las predicciones.
 
@@ -84,9 +84,9 @@ Este análisis permitió identificar diferencias importantes entre los clientes 
 
 ---
 
-# 🤖 Modelos  Predictivo
+# 🤖 Modelos Predictivos
 
-Para predecir la cancelación de clientes se implementaron modelos, los cuales permiten identificar patrones en los datos y estimar la probabilidad de abandono.
+Para predecir la cancelación de clientes se implementaron modelos que permiten identificar patrones en los datos y estimar la probabilidad de abandono.
 
 Entre los modelos utilizados se encuentran:
 
@@ -98,7 +98,7 @@ Estos algoritmos son ampliamente utilizados en problemas de clasificación debid
 Los modelos fueron entrenados utilizando un conjunto de datos de entrenamiento y posteriormente evaluados con datos de prueba, permitiendo medir su capacidad para identificar correctamente a los clientes con mayor riesgo de cancelación.
 
 <p align="center">
-<img src="Images/Regresión_logistica.png" width="700">
+<img src="Images/Regresión_logística.png" width="700">
 </p>
 
 ---
@@ -117,15 +117,15 @@ Estas métricas permiten analizar qué tan bien el modelo logra identificar corr
 
 Los resultados obtenidos muestran que los modelos alcanzan una precisión aproximada entre:
 
-**74% – 78% de exactitud**
+74% – 78% de exactitud
 
-Esto indica un buen desempeño para la predicción de cancelación de clientes, considerando la complejidad del comportamiento del usuario.
+Esto indica un buen desempeño para la predicción de cancelación de clientes considerando la complejidad del comportamiento del usuario.
 
 ---
 
 # 🔍 Factores que Influyen en la Cancelación
 
-A partir del análisis de los modelos y la importancia de variables, se identificaron algunos factores clave que influyen en la cancelación de clientes:
+A partir del análisis de los modelos y la importancia de variables se identificaron algunos factores clave que influyen en la cancelación de clientes:
 
 - Cargos Totales del Servicio
 - Cargos Mensuales
@@ -138,7 +138,7 @@ A partir del análisis de los modelos y la importancia de variables, se identifi
 
 # 💡 Estrategias de Retención
 
-Con base en los resultados obtenidos, se pueden proponer diversas estrategias para reducir la cancelación de clientes:
+Con base en los resultados obtenidos se pueden proponer diversas estrategias para reducir la cancelación de clientes:
 
 - Incentivar contratos de largo plazo
 - Optimizar los planes de precios
@@ -151,11 +151,39 @@ El uso de analítica predictiva permite a las empresas actuar de manera preventi
 
 # 🧠 Conclusión
 
-Este proyecto demuestra cómo el análisis de datos y las técnicas pueden utilizarse para comprender el comportamiento de los clientes y anticipar la cancelación del servicio.
+Este proyecto demuestra cómo el análisis de datos y las técnicas de Machine Learning pueden utilizarse para comprender el comportamiento de los clientes y anticipar la cancelación del servicio.
 
 Los resultados muestran que factores relacionados con costos del servicio, duración del contrato y características del plan contratado influyen significativamente en la decisión de los clientes de abandonar la empresa.
 
-La implementación de modelos predictivos permite a las empresas identificar clientes con alto riesgo de cancelación y aplicar estrategias de retención de forma proactiva, mejorando la toma de decisiones basada en datos.
+---
+
+# 📥 Cómo Descargar y Ejecutar el Proyecto
+
+Si deseas explorar o ejecutar este proyecto en tu propio entorno, sigue los siguientes pasos.
+
+### 1. Clonar el repositorio
+
+Abre tu terminal y ejecuta el siguiente comando:
+
+```bash
+git clone https://github.com/AnySeyer/Desafio_Parte2_TelecomX_LATAM.git
+```
+
+### 2. Abrir el archivo del análisis
+
+Dentro del repositorio encontrarás el notebook del proyecto:
+```bash
+cd TelecomX_Parte2.ipynb
+```
+
+Puedes abrirlo en:
+
+- Jupyter Notebook  
+- Google Colab  
+- VS Code con extensión de Jupyter  
+
+El repositorio también incluye los datos ya tratados utilizados durante el análisis, por lo que el notebook puede ejecutarse directamente sin necesidad de volver a realizar la preparación de los datos.
+Al abrir el archivo podrás visualizar todo el proceso de análisis exploratorio, entrenamiento de modelos y evaluación de resultados.
 
 ---
 
@@ -169,7 +197,4 @@ Anayely Reyes
 
 Proyecto desarrollado en colaboración con el programa educativo de:
 
-**Alura Latam**
-
----
-
+Alura Latam
