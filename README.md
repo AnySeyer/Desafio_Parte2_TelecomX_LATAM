@@ -77,7 +77,7 @@ Se realizó un análisis exploratorio para comprender mejor el comportamiento de
 ### Distribución de Cancelación de Clientes
 
 <p align="center">
-<img src="Images/Analisis_exploratorio.png" width="700">
+<img src="Images/Análisis_exploratorio.png" width="700">
 </p>
 
 Este análisis permitió identificar diferencias importantes entre los clientes que permanecen en la empresa y aquellos que cancelan el servicio.
